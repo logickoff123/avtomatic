@@ -1,5 +1,11 @@
-n = input ('Ввод: ').split('')
-comba = ['камень', 'ножницы', 'бумага']
+n = input ('Ввод:  ').split(' ')
+comba = ['камень', 'ножницы', 'бумага'] # список слов 
+array = ['ничья','первый', 'второй'] 
 
-if n[0] == n[1]:
-    print ('ничья')
+first = comba.index(n[0]) # индекс перовго слова игорока
+second = comba.index(n[1]) # индекс второго слова игорока
+diff = second - first # разница индексов 
+
+#print(diff, first, second)
+print(f"победил {array[diff]}")
+   
