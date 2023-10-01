@@ -1,4 +1,6 @@
-# методы в словорях
-knights = {'gallahad': 'the pure', 'robin': 'the brave'} 
-for k, v in knights.items():
-    print(k, v)
+class Matrix:
+    def __init__(self,abobus):
+        self.abobus = 5*8
+        print(self.abobus) 
+matrix = Ma
+    
